@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/background.jpg);
+}
+
+header {
+    height: 60px;
+    display: flex;
+    padding: 20px 40px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo img {
+    width: 130px;
+    height: auto;
+
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 645px;
+}
+
+main .boxblack {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.6);
+    width: 300px;
+    padding: 60px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+}
+
+.form div {
+    margin-bottom: 10px;
+}
+
+.form input {
+    padding: 18px;
+    background-color: #333333;
+    outline: none;
+    border: none;
+    margin-bottom: 17px;
+    border-radius: 8px;
+    color: #FFF
+}
+.form h1 {
+    margin-top: 0;
+    color: #FFF;
+}
+a {
+    cursor: pointer;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#botao {
+    background-color: #E70B17;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #b60c15;
+    transition: 0.4s;
+}
+.pre {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.pre label {
+    display: flex;
+    align-items: center;
+}
+.pre div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.pre div input {
+    margin: 10px 10px 10px 0px;
+}
+
+#facebook {
+    display: flex;
+    font-size: 14px;
+}
+#facebook img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#facebook label {
+    display: flex;
+    align-items: center;
+}
+
+.new {
+    font-size: 16px;
+}
+
+.new a {
+    color: #FFF;
+}
+
+.protec {
+    font-size: 13px;
+}
+
+.protec a {
+    color: #375aab;
+}
